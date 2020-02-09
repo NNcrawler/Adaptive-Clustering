@@ -3,3 +3,8 @@ export type TrafficData = {
   intensity: number;
   event_timestamp: number;
 };
+
+export type Threshold = {
+  velocity: number,
+  intensity: number
+}

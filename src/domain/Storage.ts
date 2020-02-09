@@ -1,4 +1,4 @@
-import { TrafficData } from "./TrafficData";
+import { TrafficData } from "./Types";
 
 type Timestamp = number;
 

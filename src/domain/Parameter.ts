@@ -1,11 +1,6 @@
 /// <reference path="../definition/k-means-cluster/index.d.ts"/>
-import { TrafficData } from "./TrafficData";
+import { TrafficData, Threshold } from "./Types";
 import { shilouteIndex, clusterData, kMeans } from "k-means-cluster";
-
-export type Threshold = {
-  velocity: number,
-  intensity: number
-}
 
 type TwoDVector = {
   x: number,
