@@ -2,6 +2,9 @@ import { TrafficData } from "./Types";
 
 type Timestamp = number;
 
+/**
+ * Store historical data.
+ */
 export class Storage {
   data: Map<Timestamp, TrafficData>;
 

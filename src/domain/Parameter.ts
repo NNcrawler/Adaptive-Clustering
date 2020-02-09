@@ -7,6 +7,10 @@ type TwoDVector = {
   y: number
 }
 
+
+/**
+ * Calculate threshold and determine accuracy of the threshold using K-means clustering
+ */
 export class Parameter {
   value: Threshold;
 
